@@ -13,5 +13,9 @@ xelatex resume.tex
 ## Structure
 
 - `resume.tex` — main document
-- `russell.cls` — custom document class
+- `resume.cls` — custom document class (derived from russell.cls)
 - `cv/` — content sections (experience, education, skills)
+
+## Template
+
+Based on [themagicalmammal/Resume](https://github.com/themagicalmammal/Resume).

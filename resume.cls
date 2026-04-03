@@ -1,7 +1,12 @@
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{russell}[2017/02/05 v1.6.1 russell Curriculum Vitae Class]
+% This file is a modified version of russell.cls from:
+%   https://github.com/themagicalmammal/Resume
+% Original license: LPPL 1.3c
+% Modifications by Hassan AlWizrah
+%-------------------------------------------------------------------------------
+\ProvidesClass{resume}[2026/04/03 v1.0 Resume Class (derived from russell v1.6.1)]
 \NeedsTeXFormat{LaTeX2e}
 
 
