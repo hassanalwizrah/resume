@@ -1,0 +1,72 @@
+\cvsection{Work Experience}
+
+\begin{cventries}
+
+    \cventry
+        {Software Lead Engineer}
+        {\href{https://www.humain.com/}{Humain}}
+        {Sep 2025 - Present}
+        {
+            Building \textbf{Brain}, an AI-powered meeting platform that connects client data and documents to meetings through AI agents that support before, during, and after each session.
+            \begin{cvitems}
+                \item {
+                    Built a Baresip-based SIP integration in Go with high-performance media streaming and pass-through to LiveKit rooms.
+                }
+                \item {
+                    Developed the web application with real-time meeting features powered by LiveKit, supporting MS Teams, Google Meet, and Zoom via attendee bots, plus Webex and BURUQ conferencing via the SIP integration.
+                }
+                \item {
+                    Designed and built the Brain Admin dashboard for managing client subscriptions, provisioning, and automated per-client deployments, achieving multi-tenancy through centrally managed isolated instances.
+                }
+            \end{cvitems}
+        }
+
+    \cventry
+        {Software Lead Engineer}
+        {\href{https://scai.sa/}{SCAI} (merged into \href{https://www.humain.com/}{Humain})}
+        {Sep 2023 - Sep 2025}
+        {
+            Led computer vision and generative AI projects/products for government and enterprise clients, including 6 months as acting software engineering and Quality Assurance manager.
+            \begin{cvitems}
+                \item {
+                    \textbf{Smart City:} Built Go microservices to ingest and process computer vision events from edge devices on fleet cars scanning streets, using Kafka for streaming, S3 for media storage, and PostGIS for geospatial queries. Served the React frontend through a Spring Boot BFF.
+                }
+                \item {
+                    \textbf{Scribe:} Developed an automated court transcription system in Go with NATS.IO for inter-service messaging. Services auto-discovered recordings from SMB shares, transcribed via SauTech ASR, and vectorized transcripts for semantic search. Evolved the system into a multi-tenant SaaS product with Keycloak federation, alternative ASR options, and translation support.
+                }
+                \item {
+                    \textbf{Sage:} Built a RAG solution enabling clients to integrate data lakes or upload documents, query them via LLM, and interact through a conversational interface. Bundled with Scribe for clients taking both products.
+                }
+            \end{cvitems}
+        }
+
+    \cventry
+        {Mobile Team Lead}
+        {\href{https://nearpay.io/}{NearPay}}
+        {Oct 2021 - Aug 2023}
+        {
+            Led mobile engineering for NearPay's SoftPOS tap-on-phone payment solution, shipped as an \textbf{Android white-label app} and \textbf{cross-platform SDKs}. Grew the team from 2 to 6 engineers, establishing code standards and PR review processes.
+            \begin{cvitems}
+                \item {
+                    Designed a layered architecture: C++ kernel for card data processing, a processing layer for state management and NFC-to-kernel transformation, and a presentation layer — enabling clean separation of concerns across the payment stack.
+                }
+                \item {
+                    Implemented PCI-compliant security measures including key-exchange mechanisms, DexGuard obfuscation, SafetyNet attestation, and encrypted storage.
+                }
+            \end{cvitems}
+        }
+
+    \cventry
+        {Software Engineer}
+        {\href{https://www.stc.com.sa/}{stc}}
+        {Oct 2019 - Aug 2021}
+        {
+            Developed features for \textbf{Mystc app}, one of the largest telecom apps in MENA, and contributed to stc's \textbf{Digital Sales app}.
+            \begin{cvitems}
+                \item {
+                    Designed a server-driven UI system that builds user flows and renders screens from backend responses, enabling feature delivery without app updates.
+                }
+            \end{cvitems}
+        }
+
+\end{cventries}
