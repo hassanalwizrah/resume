@@ -1,6 +1,6 @@
 # Resume
 
-LaTeX resume built with a custom `russell.cls` document class.
+LaTeX resume built with a custom `resume.cls` document class.
 
 ## Build
 
