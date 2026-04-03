@@ -1,5 +1,7 @@
 # Resume
 
+[Download Latest PDF](https://github.com/hassanalwizrah/resume/releases/latest/download/resume.pdf)
+
 LaTeX resume built with a custom `resume.cls` document class.
 
 ## Build
