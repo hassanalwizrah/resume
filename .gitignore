@@ -1,2 +1,8 @@
-*.log
+# LaTeX build artifacts
+*.pdf
 *.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
